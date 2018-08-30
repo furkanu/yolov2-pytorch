@@ -21,7 +21,7 @@ I tried to make it a bit cleaner than some other implementations.
       Now you should be able to run it if you have the required packages installed.
    </li>
    <li>
-       I am planning to add an environment.yml so that you easily create a conda environment to run it.
+       I am planning to add an environment.yml so that you can easily create a conda environment to run it.
    </li>
 </ul>
 
