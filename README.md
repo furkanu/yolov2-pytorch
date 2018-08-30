@@ -25,7 +25,7 @@ I tried to make it a bit cleaner than some other implementations.
    </li>
 </ul>
 
-
+## References
 This project took inspiration and/or code from these projects and courses/tutorials:
 - Fast.ai
 - https://github.com/ayooshkathuria/PyTorch-YOLO-v2
