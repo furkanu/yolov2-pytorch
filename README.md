@@ -1,9 +1,12 @@
 # YOLOv2 in PyTorch
 Another PyTorch implementation of YOLOv2 object detection algorithm. 
 I tried to make it a bit cleaner than some other implementations.
-* There is a Jupyter notebook that you can use to test your own images or run the pretrained models on your camera.
-* I tested this on PyTorch 0.4.1 but it should also work with 0.4.0.
-* Training is not implemented. I started working on it but I never got to finish it.
+<ul>
+<li>There is a Jupyter notebook that you can use to test your own images or run the pretrained </li>
+<li>models on your camera. </li>
+<li>I tested this on PyTorch 0.4.1 but it should also work with 0.4.0. </li>
+<li>Training is not implemented. I started working on it but I never got to finish it. </li>
+</ul>
 
 ## How to run the notebook?
 <ul>
@@ -20,16 +23,46 @@ I tried to make it a bit cleaner than some other implementations.
   <li>
       Now you should be able to run it if you have the required packages installed.
    </li>
-   <li>
-       I am planning to add an environment.yml so that you can easily create a conda environment to run it.
-   </li>
 </ul>
+
+#### An easy way to get required packages installed
+<ol>
+    <li>
+        You should have Anaconda installed on your machine:
+        https://conda.io/docs/user-guide/install/index.html
+    </li>
+    <li>
+        Download environment.yml file by running this command:
+        <pre>
+            wget https://raw.githubusercontent.com/furkanu/yolov2-pytorch/master/environment.yml
+        </pre>
+    </li>
+    <li>
+        Then, run the command below to create the conda environment with the required packages installed. The environment will be named "yolov2-pytorch" but you can change it by editing the first line of the environment.yml file.
+        <pre>
+            conda env create -f environment.yml
+        </pre>
+    </li>
+    <li>
+        After your environment has been created successfully, you can run these commands to add a kernel that you can select when running the notebook.
+        <pre>
+            source activate yolov2-pytorch #or whatever you named your environment
+            python -m ipykernel install --user --name yolov2-pytorch --display-name "yolov2-pytorch"
+        </pre>
+    </li>
+</ul>
+
+
+
 
 ## References
 This project took inspiration and/or code from these projects and courses/tutorials:
-- Fast.ai
-- https://github.com/ayooshkathuria/PyTorch-YOLO-v2
-- https://github.com/marvis/pytorch-yolo2
-- https://pjreddie.com/darknet/yolo/
-- Deeplearning.ai > Convolutional Neural Networks > Week 3 > Car detection for Autonomous Driving
-- https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/
+<ul>
+    <li>Fast.ai </li>
+    <li>https://github.com/ayooshkathuria/PyTorch-YOLO-v2 </li>
+    <li>https://github.com/marvis/pytorch-yolo2 </li>
+    <li>https://pjreddie.com/darknet/yolov2/ </li>
+    <li>Deeplearning.ai > Convolutional Neural Networks > Week 3 > Car detection for Autonomous Driving </li>
+    <li>https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/ </li>
+</ul>
+
