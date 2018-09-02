@@ -2,10 +2,9 @@
 Another PyTorch implementation of YOLOv2 object detection algorithm. 
 I tried to make it a bit cleaner than some other implementations.
 
-- There is a Jupyter notebook that you can use to test your own images or run the pretrained </li>
-- models on your camera. </li>
-- I tested this on PyTorch 0.4.1 but it should also work with 0.4.0. </li>
-- Training is not implemented. I started working on it but I never got to finish it. </li>
+- There is a Jupyter notebook that you can use to test your own images or run the pretrained models on your camera.
+- I tested this on PyTorch 0.4.1 but it should also work with 0.4.0.
+- Training is not implemented. I started working on it but I never got to finish it.
 
 ## How to run the notebook?
 - You need to download pretrained weights in order to run the notebook. You can download them here: <br>
